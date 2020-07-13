@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'RestaurantShare.urls'
+ROOT_URLCONF = 'shareRes.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'RestaurantShare.wsgi.application'
+WSGI_APPLICATION = 'shareRes.wsgi.application'
 
 
 # Database
